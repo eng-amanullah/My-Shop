@@ -1,0 +1,696 @@
+{
+  "sourceLanguage" : "bn-BD",
+  "strings" : {
+    " - Add to Cart" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " - কার্টে যোগ করুন"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " - Add to Cart"
+          }
+        }
+      }
+    },
+    "%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        }
+      }
+    },
+    "%@ -> %lf" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ -> %2$lf"
+          }
+        }
+      }
+    },
+    "$%.2f" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "$%.2f"
+          }
+        }
+      }
+    },
+    "$%.2f - Add to Cart" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "$%.2f - Add to Cart"
+          }
+        }
+      }
+    },
+    "$%.2f - Place Order" : {
+
+    },
+    "Account" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "একাউন্ট"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Account"
+          }
+        }
+      }
+    },
+    "Add to cart" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "কার্টে যোগ করুন"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add to cart"
+          }
+        }
+      }
+    },
+    "BirthDate" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "জন্ম তারিখ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "BirthDate"
+          }
+        }
+      }
+    },
+    "Calories" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ক্যালোরি"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calories"
+          }
+        }
+      }
+    },
+    "Carbs" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "শর্করা"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carbs"
+          }
+        }
+      }
+    },
+    "Cart" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "কার্ট"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cart"
+          }
+        }
+      }
+    },
+    "Core Data" : {
+
+    },
+    "Dark Mode" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ডার্ক মুড"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dark Mode"
+          }
+        }
+      }
+    },
+    "Dissmiss" : {
+
+    },
+    "English" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ইংরেজি"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English"
+          }
+        }
+      }
+    },
+    "Enter email" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ইমেইল প্রদান করুন"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter email"
+          }
+        }
+      }
+    },
+    "Enter first name" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "প্রথম নাম লিখুন"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter first name"
+          }
+        }
+      }
+    },
+    "Enter Item Name" : {
+
+    },
+    "Enter Item Price" : {
+
+    },
+    "Enter last name" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "শেষ নাম লিখুন"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter last name"
+          }
+        }
+      }
+    },
+    "Feature" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ফিচার"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feature"
+          }
+        }
+      }
+    },
+    "Got it" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "বুঝেছি"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Got it"
+          }
+        }
+      }
+    },
+    "Home" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "হোম"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        }
+      }
+    },
+    "Invalid data" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অবৈধ তথ্য"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid data"
+          }
+        }
+      }
+    },
+    "Invalid data Message" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অবৈধ তথ্য বার্তা"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid data Message"
+          }
+        }
+      }
+    },
+    "Invalid email" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অবৈধ ইমেল"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid email"
+          }
+        }
+      }
+    },
+    "Invalid email Message" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অবৈধ ইমেল বার্তা"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid email Message"
+          }
+        }
+      }
+    },
+    "Invalid form" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অবৈধ ফর্ম"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid form"
+          }
+        }
+      }
+    },
+    "Invalid form Message" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অবৈধ ফর্ম বার্তা"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid form Message"
+          }
+        }
+      }
+    },
+    "Invalid response" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অবৈধ প্রতিক্রিয়া"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid response"
+          }
+        }
+      }
+    },
+    "Invalid response Message" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অবৈধ প্রতিক্রিয়া বার্তা"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid response Message"
+          }
+        }
+      }
+    },
+    "Invalid url" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অবৈধ url"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid url"
+          }
+        }
+      }
+    },
+    "Invalid url message" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অবৈধ url বার্তা"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid url message"
+          }
+        }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ভাষা"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
+          }
+        }
+      }
+    },
+    "Order" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অর্ডার"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Order"
+          }
+        }
+      }
+    },
+    "Personal Information" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ব্যক্তিগত তথ্য"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personal Information"
+          }
+        }
+      }
+    },
+    "Place Order" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "অর্ডার করুন"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Place Order"
+          }
+        }
+      }
+    },
+    "Profile Saved" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "প্রোফাইল সংরক্ষিত"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile Saved"
+          }
+        }
+      }
+    },
+    "Profile Saved Unsuccessfull" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "প্রোফাইল সেভ করা যায়নি"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile Saved Unsuccessfull"
+          }
+        }
+      }
+    },
+    "Protein" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "প্রোটিন"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protein"
+          }
+        }
+      }
+    },
+    "Save changes" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "পরিবর্তন সংরক্ষণ করুন"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save changes"
+          }
+        }
+      }
+    },
+    "Save data" : {
+
+    },
+    "Unable to complete" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "সম্পূর্ণ করতে অক্ষম"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to complete"
+          }
+        }
+      }
+    },
+    "Unable to complete Message" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "বার্তা সম্পূর্ণ করতে অক্ষম"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unable to complete Message"
+          }
+        }
+      }
+    },
+    "Your cart is empty. Add item for checkout." : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "আপনার কাৰ্ট খালি. চেকআউটের জন্য আইটেম যোগ করুন"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your cart is empty. Add item for checkout."
+          }
+        }
+      }
+    },
+    "Your order is empty" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "আপনার কোন অর্ডার নেই"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your order is empty"
+          }
+        }
+      }
+    },
+    "Your profile information update failed" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "আপনার প্রোফাইল তথ্য আপডেট ব্যর্থ হয়েছে"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your profile information update failed"
+          }
+        }
+      }
+    },
+    "Your profile information update successfully" : {
+      "localizations" : {
+        "bn-BD" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "আপনার প্রোফাইল তথ্য সফলভাবে আপডেট"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your profile information update successfully"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
