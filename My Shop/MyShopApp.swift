@@ -16,15 +16,16 @@ struct MyShopApp: App {
     @State private var networkMonitor = NetworkMonitor()
     @State var languageSettings = LanguageSetting()
     
-    var orderViewModel = CartViewModel()
+    var cartViewModel = CartViewModel()
+    var orderViewModel = OrderViewModel()
     
     var body: some Scene {
         WindowGroup {
-            //ContentView()
-            CoreDataView()
+            ContentView()
                 .preferredColorScheme(isDarkMode ? .dark : .light)
                 .environment(languageSettings)
                 .environment(\.locale, isEnglish ? languageSettings.en : languageSettings.bn)
+                .environmentObject(cartViewModel)
                 .environmentObject(orderViewModel)
             //.environment(networkMonitor)
         }

@@ -9,18 +9,17 @@ import SwiftUI
 
 struct CartView: View {
     
-    @EnvironmentObject private var viewModel: CartViewModel
+    @EnvironmentObject private var cartViewModel: CartViewModel
     
-    @StateObject private var coreDataViewModel = CoreDataViewModel()
-    @StateObject private var orderViewModel = OrderViewModel()
-    
+    @EnvironmentObject private var orderViewModel: OrderViewModel
+        
     var body: some View {
         NavigationStack {
             ZStack(alignment: .center) {
                 NavigationStack {
                     VStack {
                         List {
-                            ForEach(coreDataViewModel.cartItems) { item in
+                            ForEach(cartViewModel.cartItems) { item in
                                 HStack {
                                     ShopImage(imageUrl: item.imageurl ?? "")
                                     .frame(width: 120, height: 90)
@@ -42,21 +41,22 @@ struct CartView: View {
                                     .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
                                 }
                             }
-                            .onDelete(perform: coreDataViewModel.deleteCartItem)
+                            .onDelete(perform: cartViewModel.deleteCartItem)
                         }
                         .listStyle(.plain)
                         .listRowSeparator(.hidden)
 
                         
-                        if !coreDataViewModel.cartItems.isEmpty {
+                        if !cartViewModel.cartItems.isEmpty {
                             Button(
                                 action: {
-//                                    ForEach(viewModel.cartItems) { item in
-//
+//                                    ForEach(CartView.cartItems) { item in
 //                                    }
                                     orderViewModel.addOrderItem(name: "Burger", price: 10, imageUrl: "", customerName: "Amanullah Sarker")
+                                    
+                                    cartViewModel.clearCart()
                                 }, label: {
-                                    ShopButton(buttonTitle: "$\(coreDataViewModel.totalPrice, specifier: "%.2f") - Place Order")
+                                    ShopButton(buttonTitle: "$\(cartViewModel.totalPrice, specifier: "%.2f") - Place Order")
                                 }
                             )
                             .padding(.horizontal)
@@ -67,12 +67,12 @@ struct CartView: View {
                     .navigationTitle("Cart")
                 }
                 
-                if coreDataViewModel.cartItems.isEmpty {
+                if cartViewModel.cartItems.isEmpty {
                     EmptyCartView(imageName: "cart", title: Text("Your cart is empty. Add item for checkout."))
                 }
             }
             .task {
-                coreDataViewModel.fetchCartItem()
+                cartViewModel.fetchCartItem()
             }
             //            .alert(item: $viewModel.alertItem) { alert in
             //                Alert(title: alert.title, message: alert.message, dismissButton: alert.dissmissButton)

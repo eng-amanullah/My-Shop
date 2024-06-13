@@ -28,16 +28,6 @@
         }
       }
     },
-    "%@ -> %lf" : {
-      "localizations" : {
-        "bn-BD" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$@ -> %2$lf"
-          }
-        }
-      }
-    },
     "$%.2f" : {
       "localizations" : {
         "en" : {
@@ -159,9 +149,6 @@
         }
       }
     },
-    "Core Data" : {
-
-    },
     "Dark Mode" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -230,12 +217,6 @@
           }
         }
       }
-    },
-    "Enter Item Name" : {
-
-    },
-    "Enter Item Price" : {
-
     },
     "Enter last name" : {
       "localizations" : {
@@ -591,9 +572,6 @@
           }
         }
       }
-    },
-    "Save data" : {
-
     },
     "Unable to complete" : {
       "localizations" : {

@@ -10,9 +10,7 @@ import SwiftUI
 struct DetailsView: View {
     
     @EnvironmentObject var cartViewModel: CartViewModel
-    
-    @StateObject private var coreDataViewModel = CoreDataViewModel()
-    
+        
     let appetizer: Appetizer
     
     @Binding var isDetailsClicked: Bool
@@ -51,7 +49,7 @@ struct DetailsView: View {
                     Button(
                         action: {
                             //cartViewModel.addItemInCart(appetizer: appetizer)
-                            coreDataViewModel.addCartItem(name: appetizer.name, price: appetizer.price, imageUrl: appetizer.imageURL ?? "")
+                            cartViewModel.addCartItem(name: appetizer.name, price: appetizer.price, imageUrl: appetizer.imageURL ?? "")
                             isDetailsClicked = false
                         }, label: {
                             ShopButton(buttonTitle: "$\(appetizer.price, specifier: "%.2f") - Add to Cart")

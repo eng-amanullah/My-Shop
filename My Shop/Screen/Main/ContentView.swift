@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @EnvironmentObject private var cartViewModel: CartViewModel
-    
+        
     var body: some View {
         TabView {
             HomeView()

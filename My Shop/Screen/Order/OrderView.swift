@@ -9,7 +9,7 @@ import SwiftUI
 
 struct OrderView: View {
     
-    @StateObject private var orderViewModel = OrderViewModel()
+    @EnvironmentObject private var orderViewModel: OrderViewModel
     
     var body: some View {
         NavigationStack {
